@@ -160,13 +160,17 @@ section {
 
 .projects .content{
     margin-top: 30px;
+     display: flex;           /* enable flexbox */
+    flex-wrap: wrap;         /* allow cards to wrap to next line */
+    justify-content: center; /* center cards horizontally */
+    gap: 20px; 
 }
 
 .project-card {
     background-color: #fff;
     border: 1px solid #fff;
     min-height: 14em;
-    width: 23em;
+    width: 300px;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
